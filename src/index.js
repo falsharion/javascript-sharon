@@ -1,6 +1,11 @@
 // complete the function
 function prime (num) {
   // code goes here
+  if (num % 2 === 0) {
+    return true
+} else{
+    return false
+}
 }
 
 function solution (arg) {
